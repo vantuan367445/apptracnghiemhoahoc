@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawerlayout"
+    tools:context=".activity.TrangChuActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBarMain"
+
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/white"
+            android:background="@color/colorLight_Blue">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dethingaunhien"
+                android:textColor="@android:color/white"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center"
+                />
+
+
+        </android.support.v7.widget.Toolbar>
+        <RelativeLayout
+            android:background="@color/colorLight_Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/size15sp"
+                android:layout_margin="@dimen/size10dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/txt_cauhoihientai"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/size15sp"
+                android:layout_margin="@dimen/size10dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/txt_lambai_made"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/count_timeText"
+                android:textSize="@dimen/size15sp"
+                android:layout_margin="@dimen/size10dp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TabLayout
+
+                app:tabMode="scrollable"
+                android:id="@+id/sliding_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.design.widget.TabLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:id="@+id/navigatinonView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="@dimen/size10dp"
+                android:textSize="@dimen/size20sp"
+                android:textColor="@color/colorRed"
+                android:gravity="center"
+                android:text="@string/phieudapan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ListView
+                android:id="@+id/lvnavigationView_MHC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginBottom="@dimen/size10dp"
+        android:layout_marginTop="@dimen/size10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_stt_cau"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_marginLeft="@dimen/size5dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/size20dp"
+            android:gravity="center"
+            android:layout_width="@dimen/size30dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="A"
+            android:id="@+id/btn_dapanA"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:background="@drawable/custom_button_phieudapan"
+            android:textColor="@color/colorRed"
+            android:layout_width="@dimen/size40dp"
+            android:layout_height="@dimen/size40dp" />
+        <Button
+            android:text="B"
+            android:id="@+id/btn_dapanB"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:background="@drawable/custom_button_phieudapan"
+            android:textColor="@color/colorRed"
+            android:layout_width="@dimen/size40dp"
+            android:layout_height="@dimen/size40dp" />
+        <Button
+            android:text="C"
+            android:id="@+id/btn_dapanC"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:background="@drawable/custom_button_phieudapan"
+            android:textColor="@color/colorRed"
+            android:layout_width="@dimen/size40dp"
+            android:layout_height="@dimen/size40dp" />
+        <Button
+            android:text="D"
+            android:id="@+id/btn_dapanD"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:background="@drawable/custom_button_phieudapan"
+            android:textColor="@color/colorRed"
+            android:layout_width="@dimen/size40dp"
+            android:layout_height="@dimen/size40dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

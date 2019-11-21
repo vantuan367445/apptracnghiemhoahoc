@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Trắc nghiệm Hóa Học</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mota1">"Làm bài tập trắc nghiệm theo mức độ tư duy có ngay đáp án và lời giải chi tiết sau khi làm bài cùng với lưu ý khi giải."</string>
+    <string name="mota2">"Mỗi ngày bạn thấy thú vị với các lý thuyết, bài tập trắc nghiệm rèn tư duy thông phương pháp giải sinh độc và trực quan."</string>
+    <string name="mota3">"Hào hứng với các bài tập trắc nghiệm  giúp bạn rèn tư duy."</string>
+    <string name="mota4">"Luyện bài tập trắc nghiệm trực tuyến theo hướng đánh giá năng lực có lời giải chi tiết và phương pháp."</string>
+    <string name="mota5">"Làm bài tập trắc nghiệm theo mức độ tư duy có ngay đáp án và lời giải chi tiết sau khi làm bài cùng với lưu ý khi giải."</string>
+    <string name="mota6">"Luyện bài tập, đề thi trắc nghiệm  theo từng dạng, cấp độ, có đáp án, lời giải chi tiết biết được phần nào còn yếu để khắc phục."</string>
+    <string name="dapan">"Đáp án"</string>
+    <string name="luyende">"Luyện đề"</string>
+    <string name="dethingaunhien">"Đề thi ngẫu nhiên"</string>
+    <string name="phieudapan">"Phiếu đáp án"</string>
+    <string name="useremail">"Useremail"</string>
+    <string name="password">"Password"</string>
+    <string name="dangnhap">"Sign In"</string>
+    <string name="quenpass">"Forgot Password?"</string>
+    <string name="taotaikhoan">"Create New Account"</string>
+    <string name="taotaikhoan2">"Create account"</string>
+    <string name="emailcuaban">"Your email"</string>
+    <string name="passcuaban">"Your password"</string>
+    <string name="create">"Create"</string>
+    <string name="ketqua">"KẾT QUẢ"</string>
+    <string name="lamdemoi">"Làm đề mới"</string>
+    <string name="xemketqua">"Xem kết quả"</string>
+    <string name="diachithunder">"https://www.facebook.com/ThunderPTIT"</string>
+    <string name="danhsachtrong">"Danh sách trống"</string>
+    <string name="kiemtra">"Kiểm tra"</string>
+    <string name="ethunder">"E-Thunder"</string>
+    <string name="lambai">"Làm bài"</string>
+    <string name="trangchu">"Trang chủ"</string>
+    <string name="lichsu">"Lịch sử"</string>
+    <string name="done">"Done"</string>
+    <string name="dung">"Đúng"</string>
+    <string name="ma">"Mã"</string>
+    <string name="nopbai">"Nộp bài"</string>
+    <string name="banchacchanmuonnopbai">"Bạn chắc chắn muốn nộp bài ?"</string>
+    <string name="huy">"HỦY"</string>
+    <string name="dongy">"ĐỒNG Ý"</string>
+    <string name="thongtindangnhapkhongdung">"Thông tin không đúng! Vui lòng xem lại"</string>
+    <string name="vuilongdienduthongtin">"Vui lòng điền đủ thông tin!"</string>
+    <string name="emaildatontai">"Email đã tồn tại!"</string>
+    <string name="taothanhcong">"Tạo thành công"</string>
+    <string name="lamdethi">"Làm đề thi"</string>
+    <string name="bandasansanglamde">"Bạn đã sẵn sàng làm đề ?"</string>
+    <string name="cau">"Câu"</string>
+    <string name="danhsachketquathi">"Danh sách kết quả thi"</string>
+</resources>

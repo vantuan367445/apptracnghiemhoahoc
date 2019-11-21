@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="@dimen/size5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txt_nameDeThi"
+            android:textSize="@dimen/size16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/size5dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_copyright"
+                    android:layout_width="@dimen/size16dp"
+                    android:layout_height="@dimen/size16dp" />
+                <TextView
+                    android:layout_marginLeft="@dimen/size5dp"
+                    android:textSize="@dimen/size12sp"
+                    android:text="@string/ethunder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/size12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtmaDeThi"
+                    android:gravity="center"
+                    android:textSize="@dimen/size12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_socauhoiDeThi"
+                android:textColor="@color/colorLime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_timelambaiDeThi"
+                android:textColor="@color/colorRed"
+                android:layout_marginLeft="@dimen/size50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/size5dp"
+            android:background="@color/colorGray"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size1dp" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/icon_time_24dp"
+                android:layout_width="@dimen/size24dp"
+                android:layout_height="@dimen/size24dp" />
+
+            <Button
+                android:id="@+id/btn_lambaiThi"
+                android:layout_marginLeft="@dimen/size5dp"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:text="@string/lambai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

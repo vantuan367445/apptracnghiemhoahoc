@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:auto="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <io.github.kexanie.library.MathView
+            android:id="@+id/mathview_namecauhoi"
+            android:textSize="@dimen/size15sp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            auto:engine="KaTeX"
+            >
+        </io.github.kexanie.library.MathView>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photoview_namecauhoi"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_choiceA"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/size5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_IdchoiceA"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:background="@drawable/custom_circle_button_khong_chon"
+                android:text="A"
+                android:layout_width="@dimen/size40dp"
+                android:layout_height="@dimen/size40dp" />
+
+            <io.github.kexanie.library.MathView
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:id="@+id/math_choiceA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_choiceB"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/size5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="B"
+                android:id="@+id/txt_IdchoiceB"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:background="@drawable/custom_circle_button_khong_chon"
+                android:layout_width="@dimen/size40dp"
+                android:layout_height="@dimen/size40dp" />
+
+            <io.github.kexanie.library.MathView
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:id="@+id/math_choiceB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_choiceC"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/size5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_IdchoiceC"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:background="@drawable/custom_circle_button_khong_chon"
+                android:text="C"
+                android:layout_width="@dimen/size40dp"
+                android:layout_height="@dimen/size40dp" />
+
+            <io.github.kexanie.library.MathView
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:id="@+id/math_choiceC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_choiceD"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/size5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_IdchoiceD"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:background="@drawable/custom_circle_button_khong_chon"
+                android:text="D"
+                android:layout_width="@dimen/size40dp"
+                android:layout_height="@dimen/size40dp" />
+
+            <io.github.kexanie.library.MathView
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size10dp"
+                android:id="@+id/math_choiceD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

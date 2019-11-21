@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DeThiActivity">
+    <android.support.v7.widget.Toolbar
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin"
+        android:background="@color/colorLight_Blue"
+        android:id="@+id/toobar_kiemtra"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_marginRight="@dimen/size60dp"
+            android:textSize="@dimen/size20sp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:text="@string/luyende"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginRight="@dimen/size10dp"
+        android:layout_marginLeft="@dimen/size10dp"
+        android:id="@+id/recyclerViewDeThi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

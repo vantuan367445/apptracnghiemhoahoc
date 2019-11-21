@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/size10dp"
+    android:layout_marginBottom="@dimen/size10dp">
+
+    <LinearLayout
+        android:padding="@dimen/size10dp"
+        android:paddingBottom="@dimen/size5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img_avt"
+            android:layout_width="@dimen/size100dp"
+            android:layout_height="@dimen/size100dp" />
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/size5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/size15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorLight_Blue"
+                android:id="@+id/text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/size10dp"
+                android:layout_below="@+id/text_id"
+                android:textColor="@color/colorLight_Primary"
+                android:id="@+id/text_mota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_below="@+id/text_id"
+                    android:id="@+id/Line_practice"
+                    android:layout_marginBottom="@dimen/size10dp"
+                    android:layout_marginTop="@dimen/size10dp"
+                    android:layout_marginRight="@dimen/size5dp"
+                    android:layout_marginLeft="@dimen/size5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <!--<Button-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:layout_alignParentLeft="true"-->
+                        <!--android:id="@+id/btn_lythuyet"-->
+                        <!--android:textAllCaps="false"-->
+                        <!--android:background="@drawable/custom_button"-->
+                        <!--android:text="Lý thuyết"-->
+                        <!--android:layout_width="100dp"-->
+                        <!--android:layout_height="wrap_content" />-->
+                    <Button
+                        android:layout_marginRight="@dimen/size5dp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/btn_kiemtra"
+                        android:textAllCaps="false"
+                        android:background="@drawable/custom_button"
+                        android:text="@string/kiemtra"
+                        android:layout_width="@dimen/size100dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

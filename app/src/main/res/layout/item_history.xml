@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/size10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txt_namede_history"
+            android:maxLines="2"
+            android:layout_width="@dimen/size300dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginRight="@dimen/size5dp"
+            android:id="@+id/line_history"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_true_24dp"
+                android:layout_width="@dimen/size24dp"
+                android:layout_height="@dimen/size24dp" />
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/txt_socaudung_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/size2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_ngaylambai_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_giolambai_history"
+                android:layout_marginLeft="@dimen/size5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_timelambai_history"
+            android:layout_marginRight="@dimen/size5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="@dimen/size5dp"
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size5dp" />
+
+
+</LinearLayout>

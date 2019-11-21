@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size320dp"
+    android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:textColorHint="@color/colorLight_Primary"
+                    android:textSize="@dimen/size20sp"
+                    android:gravity="center"
+                    android:background="@color/colorLight_Gray"
+                    android:text="@string/taotaikhoan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size50dp" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorLight_Primary2"
+                    android:layout_width="@dimen/size50dp"
+                    android:layout_height="@dimen/size50dp">
+                        <ImageView
+                            android:id="@+id/ima_cancel_dialog_createacc"
+                            android:src="@drawable/icon_cancel_48"
+                            android:layout_width="@dimen/size50px"
+                            android:layout_height="@dimen/size50px" />
+                </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/size20dp"
+            android:layout_marginLeft="@dimen/size20dp"
+            android:layout_marginRight="@dimen/size20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/size2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginRight="@dimen/size5dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_user"
+                            android:layout_width="@dimen/size24dp"
+                            android:layout_height="@dimen/size24dp" />
+                        <EditText
+                            android:inputType="textPersonName"
+                            android:background="@null"
+                            android:id="@+id/edt_yourname_dialog_createacc"
+                            android:textColorHint="@color/colorLight_Gray"
+                            android:textSize="15sp"
+                            android:hint="Your name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                </LinearLayout>
+                <TextView
+                    android:background="@color/colorLight_Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/size20dp"
+            android:layout_marginLeft="@dimen/size20dp"
+            android:layout_marginRight="@dimen/size20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/size2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+
+                            android:layout_marginRight="@dimen/size5dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_gmail"
+                            android:layout_width="@dimen/size24dp"
+                            android:layout_height="@dimen/size24dp" />
+                        <EditText
+                            android:inputType="textEmailAddress"
+                            android:background="@null"
+                            android:id="@+id/edt_youremail_dialog_createacc"
+                            android:textColorHint="@color/colorLight_Gray"
+                            android:textSize="@dimen/size15sp"
+                            android:hint="@string/emailcuaban"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                </LinearLayout>
+                <TextView
+                    android:background="@color/colorLight_Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/size20dp"
+            android:layout_marginLeft="@dimen/size20dp"
+            android:layout_marginRight="@dimen/size20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/size2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginRight="@dimen/size5dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_pass"
+                            android:layout_width="@dimen/size24dp"
+                            android:layout_height="@dimen/size24dp" />
+                        <EditText
+                            android:inputType="textPassword"
+                            android:background="@null"
+                            android:id="@+id/edt_yourpass_dialog_createacc"
+                            android:textColorHint="@color/colorLight_Gray"
+                            android:textSize="@dimen/size15sp"
+                            android:hint="@string/passcuaban"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                </LinearLayout>
+                <TextView
+                    android:background="@color/colorLight_Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size2dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_dialog_createacc"
+            android:layout_marginBottom="@dimen/size40dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size18sp"
+            android:inputType="textCapWords"
+            android:text="@string/create"
+            android:background="@drawable/custom_but_create_corner"
+            android:layout_marginTop="@dimen/size40dp"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>

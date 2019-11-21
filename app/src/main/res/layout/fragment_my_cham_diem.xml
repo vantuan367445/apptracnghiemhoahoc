@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    xmlns:auto="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="@dimen/size15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <io.github.kexanie.library.MathView
+                android:id="@+id/mathview_namecauhoiChamDiem"
+                android:textSize="@dimen/size15sp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                auto:engine="KaTeX"
+                >
+            </io.github.kexanie.library.MathView>
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/photoview_namecauhoiChamDiem"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:id="@+id/linear_choiceAChamDiem"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="A"
+                    android:id="@+id/txt_IdchoiceAChamDiem"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/custom_circle_button_khong_chon"
+                    android:layout_width="@dimen/size40dp"
+                    android:layout_height="@dimen/size40dp" />
+
+                <io.github.kexanie.library.MathView
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/size10dp"
+                    android:id="@+id/math_choiceAChamDiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_choiceBChamDiem"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="B"
+                    android:id="@+id/txt_IdchoiceBChamDiem"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/custom_circle_button_khong_chon"
+                    android:layout_width="@dimen/size40dp"
+                    android:layout_height="@dimen/size40dp" />
+
+                <io.github.kexanie.library.MathView
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/size10dp"
+                    android:id="@+id/math_choiceBChamDiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_choiceCChamDiem"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="C"
+                    android:id="@+id/txt_IdchoiceCChamDiem"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/custom_circle_button_khong_chon"
+                    android:layout_width="@dimen/size40dp"
+                    android:layout_height="@dimen/size40dp" />
+
+                <io.github.kexanie.library.MathView
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/size10dp"
+                    android:id="@+id/math_choiceCChamDiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_choiceDChamDiem"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="D"
+                    android:id="@+id/txt_IdchoiceDChamDiem"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/custom_circle_button_khong_chon"
+                    android:layout_width="@dimen/size40dp"
+                    android:layout_height="@dimen/size40dp" />
+
+                <io.github.kexanie.library.MathView
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/size10dp"
+                    android:id="@+id/math_choiceDChamDiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_truefalseChamDiem"
+            android:layout_marginTop="@dimen/size10dp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/size32dp"
+            android:layout_height="@dimen/size32dp" />
+        <Button
+            android:layout_marginBottom="@dimen/size20dp"
+            android:textSize="@dimen/size15sp"
+            android:paddingRight="@dimen/size20dp"
+            android:paddingLeft="@dimen/size20dp"
+            android:inputType="textCapWords"
+            android:id="@+id/btn_lamdemoiChamDiem"
+            android:layout_marginTop="@dimen/size20dp"
+            android:background="@drawable/custom_button_bo_goc_yellow"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/lamdemoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
